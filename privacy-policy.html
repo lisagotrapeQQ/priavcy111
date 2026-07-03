@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OceanBox Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for OceanBox, an iOS private vault app.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8fa;
+      --text: #1f2933;
+      --muted: #5f6b7a;
+      --surface: #ffffff;
+      --border: #d8dee6;
+      --accent: #0f766e;
+      --heading: #102a43;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111827;
+        --text: #e5e7eb;
+        --muted: #a8b3c2;
+        --surface: #182231;
+        --border: #334155;
+        --accent: #5eead4;
+        --heading: #f3f4f6;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: clamp(24px, 5vw, 48px);
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: var(--heading);
+      line-height: 1.25;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 4vw, 3rem);
+    }
+
+    h2 {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 1.35rem;
+    }
+
+    h3 {
+      margin-top: 24px;
+      font-size: 1.05rem;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0;
+      font-size: 0.96rem;
+    }
+
+    th,
+    td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--heading);
+      background: color-mix(in srgb, var(--accent) 9%, transparent);
+      font-weight: 700;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .meta {
+      color: var(--muted);
+      margin: 0 0 28px;
+    }
+
+    .notice {
+      border-left: 4px solid var(--accent);
+      padding: 12px 16px;
+      background: color-mix(in srgb, var(--accent) 8%, transparent);
+      margin: 20px 0;
+    }
+
+    .footer {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>OceanBox Privacy Policy</h1>
+      <p class="meta">Effective Date: July 3, 2026</p>
+
+      <div class="notice">
+        <p>OceanBox is designed to keep user-selected vault content on the user's device. This policy describes the data handled by OceanBox and how that data is used, stored, shared, retained, and deleted.</p>
+      </div>
+
+      <h2>1. Who We Are</h2>
+      <p>OceanBox is provided by Ludo Bouet.</p>
+      <p>Contact email: <a href="mailto:ludovic.bouet-leboeuf@eauduponant.fr">ludovic.bouet-leboeuf@eauduponant.fr</a></p>
+      <p>App Store ID: 6787018751</p>
+      <p>Bundle ID: com.app.engivault</p>
+
+      <h2>2. Summary</h2>
+      <ul>
+        <li>OceanBox does not use advertising SDKs.</li>
+        <li>OceanBox does not use analytics SDKs.</li>
+        <li>OceanBox does not sell user data.</li>
+        <li>OceanBox does not create a server account for the user.</li>
+        <li>Vault photos, videos, and notes are stored locally on the user's device.</li>
+        <li>Vault content is encrypted before local storage.</li>
+        <li>User-initiated sharing sends selected content only to the destination chosen by the user through the system share interface.</li>
+      </ul>
+
+      <h2>3. Data Handled by OceanBox</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Data Type</th>
+            <th>How It Is Provided or Created</th>
+            <th>Purpose</th>
+            <th>Storage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Photos</td>
+            <td>Selected or captured by the user</td>
+            <td>Private vault storage, viewing, deletion, export, and sharing when requested by the user</td>
+            <td>Stored locally in the app's private storage after encryption</td>
+          </tr>
+          <tr>
+            <td>Videos</td>
+            <td>Selected or recorded by the user</td>
+            <td>Private vault storage, playback, deletion, export, and sharing when requested by the user</td>
+            <td>Stored locally in the app's private storage after encryption</td>
+          </tr>
+          <tr>
+            <td>Notes</td>
+            <td>Created by the user inside the app</td>
+            <td>Private text note storage and editing</td>
+            <td>Stored locally in the app's private storage after encryption</td>
+          </tr>
+          <tr>
+            <td>Password and guest password values</td>
+            <td>Entered by the user</td>
+            <td>Vault access control</td>
+            <td>Stored as salted hashes in platform secure storage where implemented</td>
+          </tr>
+          <tr>
+            <td>Encryption key</td>
+            <td>Generated by the app</td>
+            <td>Encrypting and decrypting vault content on the device</td>
+            <td>Stored in platform secure storage where implemented</td>
+          </tr>
+          <tr>
+            <td>App settings</td>
+            <td>Selected by the user or generated by app operation</td>
+            <td>Language preference, setup state, calculator disguise state, and local app behavior</td>
+            <td>Stored locally using platform storage</td>
+          </tr>
+          <tr>
+            <td>Family Controls selection state</td>
+            <td>Selected by the user through iOS Family Controls</td>
+            <td>App hiding or app restriction functionality selected by the user</td>
+            <td>Stored locally using platform secure storage where implemented</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>4. Permissions</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Permission</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Camera</td>
+            <td>Capture photos for import into the encrypted vault.</td>
+          </tr>
+          <tr>
+            <td>Microphone</td>
+            <td>Record audio when the user records video.</td>
+          </tr>
+          <tr>
+            <td>Photo Library</td>
+            <td>Allow the user to select photos or videos for vault import, delete selected original assets when requested, or save exported media back to the library.</td>
+          </tr>
+          <tr>
+            <td>Family Controls</td>
+            <td>Enable the user-selected app hiding or restriction feature on supported iOS versions.</td>
+          </tr>
+          <tr>
+            <td>Network access</td>
+            <td>OceanBox performs a one-time request to https://captive.apple.com to trigger system network behavior and records locally that the prompt attempt occurred. OceanBox does not use this request to build a user profile.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>5. How OceanBox Uses Data</h2>
+      <p>OceanBox uses data only for app functionality selected or initiated by the user. These uses include:</p>
+      <ul>
+        <li>Importing photos and videos into the vault.</li>
+        <li>Encrypting, storing, displaying, playing, exporting, deleting, and sharing vault content.</li>
+        <li>Saving and editing private notes.</li>
+        <li>Verifying the vault password or guest password.</li>
+        <li>Maintaining local preferences and setup state.</li>
+        <li>Applying user-selected Family Controls restrictions on supported iOS versions.</li>
+      </ul>
+
+      <h2>6. Sharing and Third Parties</h2>
+      <p>OceanBox does not sell user data and does not share user data with advertising networks or analytics services.</p>
+      <p>When the user chooses to share a photo, video, or text through the system share interface, the selected content is provided to the destination chosen by the user. The privacy practices of that destination are controlled by the selected third-party app or service, not by OceanBox.</p>
+      <p>OceanBox uses Apple system frameworks and platform services, including Photos, Keychain, Family Controls, Managed Settings, and the iOS share interface, to provide app functionality.</p>
+
+      <h2>7. Storage and Security</h2>
+      <ul>
+        <li>Vault photos, videos, and notes are encrypted using AES-GCM before being stored in the app's private local storage.</li>
+        <li>Encryption keys and password hashes are stored using platform secure storage where implemented.</li>
+        <li>OceanBox does not operate a backend server for storing vault content.</li>
+        <li>Data remains on the user's device unless the user exports it, shares it, saves it to the photo library, restores it through device-level backup behavior, or otherwise transfers it outside the app.</li>
+      </ul>
+
+      <h2>8. Retention and Deletion</h2>
+      <p>Vault data is retained on the user's device until the user deletes it in OceanBox, removes OceanBox from the device, or deletes it through device or operating system controls.</p>
+      <p>Users can delete photos, videos, and notes inside OceanBox. If the user imported media from the photo library, deleting the vault copy does not necessarily delete the original photo library asset unless the user separately confirms deletion of the original asset where that option is offered.</p>
+      <p>Because OceanBox does not maintain a backend account system for vault content, deletion requests for local vault data must be completed on the user's device. Users may contact Ludo Bouet at the email address below for privacy questions.</p>
+
+      <h2>9. Consent and User Control</h2>
+      <p>Users control whether to grant or deny system permissions through iOS settings and system permission prompts. Users may revoke permissions in iOS Settings. Revoking a permission may prevent related features from working.</p>
+      <p>Users control whether to import, create, share, export, or delete vault content. Users control whether to enable or disable supported Family Controls functionality.</p>
+
+      <h2>10. Children's Privacy</h2>
+      <p>OceanBox is not designed to knowingly collect personal information from children through a backend service. The app stores user-selected vault content locally on the device. If a parent or guardian has questions about local data stored in OceanBox, they may contact Ludo Bouet using the contact information below.</p>
+
+      <h2>11. International Availability</h2>
+      <p>OceanBox may be available in multiple regions. Users are responsible for using the app in compliance with local requirements that apply to their own use of vault, media, sharing, and device restriction features.</p>
+
+      <h2>12. Changes to This Policy</h2>
+      <p>This policy may be updated when OceanBox changes its data practices, app functionality, permissions, or third-party integrations. The effective date above will be updated when the policy changes.</p>
+
+      <h2>13. Contact</h2>
+      <p>For privacy questions or requests, contact:</p>
+      <p><strong>Ludo Bouet</strong><br>
+      <a href="mailto:ludovic.bouet-leboeuf@eauduponant.fr">ludovic.bouet-leboeuf@eauduponant.fr</a></p>
+
+      <p class="footer">This page is intended to describe OceanBox data practices for users and App Store review.</p>
+    </article>
+  </main>
+</body>
+</html>
